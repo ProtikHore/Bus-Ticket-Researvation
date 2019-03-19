@@ -1,0 +1,279 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size   : 14px;
+    line-height : 21px;
+    color       : #444444;
+    font-weight : 300;
+    background: #f2f1f1;
+    }
+
+/* --------------------------------------
+Global Typography
+------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin      : 0 0 10px;
+    color       : #000000;
+    font-family: 'Oswald', sans-serif;
+
+    }
+
+h1 {
+    font-size   : 22px;
+    line-height : 1.4em;
+    font-weight : 500;
+    color: #fff;
+    margin-bottom: 0;
+    }
+
+h2 {
+    font-size   : 20px;
+    line-height : 1.5em;
+    font-weight : 500;
+    }
+
+h3 {
+    font-size   : 20px;
+    line-height : 1.5em;
+    font-weight : 500;
+    }
+
+h4 {
+    font-size   : 14px;
+    line-height : 1.5em;
+    font-weight : 300;
+    }
+
+h5 {
+    font-size   : 14px;
+    line-height : 1.5em;
+    font-weight : 500;
+    }
+
+h6 {
+    font-size   : 15px;
+    line-height : 24px;
+    }
+
+/* --------------------------------------
+LINK STYLE
+------------------------------------------*/
+a {
+    color              : #010101;
+    text-decoration    : none;
+    -webkit-transition : all 0.3s ease 0s;
+    -moz-transition    : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition         : all 0.3s ease 0s;
+    }
+
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration : none;
+    outline         : none
+    }
+
+a:hover,
+a:focus {
+    text-decoration : none;
+    color: #ff6102;
+    }
+
+
+/* mainmenu start */
+.mainmenu_area {
+background : #563D7C;
+}
+.mainmenu_area a:hover {
+text-decoration : none;
+}
+.mainmenu_area ul#nav {
+margin : 0;
+padding : 0;
+list-style : none;
+}
+.mainmenu_area ul#nav li {
+display : inline-block;
+position : relative;
+}
+.mainmenu_area ul#nav li:before {
+height : 2px;
+width : 100%;
+content : "";
+position : absolute;
+left : 0;
+top : 0;
+background : #d83c2f;
+display : none;
+}
+.mainmenu_area ul#nav li:hover:before {
+display : block;
+}
+.mainmenu_area ul#nav ul li:before {
+display : none;
+}
+.mainmenu_area ul#nav li a {
+font-size : 15px;
+color : #fff;
+text-transform : uppercase;
+display : inline-block;
+padding : 12px;
+}
+.mainmenu_area ul#nav li:hover a {
+color : #d83c2f;
+}
+.mainmenu_area ul#nav li:hover ul li a {
+color : #fff;
+}
+.mainmenu_area ul#nav li:hover ul li a:hover {
+background : #d83c2f;
+color : #fff;
+}
+.mainmenu_area ul#nav li ul {
+background : #563D7C none repeat scroll 0% 0%;
+left : 0;
+list-style : none;
+margin : 0;
+padding : 0;
+position : absolute;
+top : 45px;
+width : 250px;
+z-index : 999;
+color : #fff;
+display : none;
+}
+.mainmenu_area ul#nav li:hover ul {
+display : block;
+}
+.mainmenu_area ul#nav li ul li {
+display : block;
+}
+.mainmenu_area ul#nav li ul li a {
+display : block;
+padding : 12px 18px;
+text-transform : none;
+}
+.mainmenu_area ul#nav li ul li ul {
+left : -9999px;
+}
+.mainmenu_area ul#nav li ul li:hover ul {
+left : 250px;
+top : 0;
+}
+.mainmenu_area ul#nav ul li:hover:before {
+display : none;
+}
+.mainmenu_area ul#nav ul li:hover a {
+background : #d83c2f;
+color : #fff;
+}
+.mainmenu_area ul#nav ul li:hover ul li a {
+background : #563D7C;
+color : #fff;
+}
+
+/* mainmenu end  */
+
+.content{
+    background-image: url(../img/bus.jpg);
+    width: 100%;
+    height: 1000px;
+}
+.bus_heading{
+    margin-top: 15px;
+    font-size: 35px;
+    color: white
+}
+.go_button{
+    background: #563D7C;
+    margin-top: 28px;
+    padding: 7px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-contact{
+    margin-top: 100px
+}
+.btn{
+    color: white;
+}
+.available_heading{
+    background: white;
+    margin-top: -71px;
+    padding: 15px;
+    color: #563D7C;
+    font-size: 25px;
+    border: 2px solid #563D7c;
+}
+.table_top{
+    background: #563D7C;
+    color: white;
+}
+
+.seat {
+    border: 1px solid #bebebe;
+    padding: 10px;
+    width: 180px;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+
+
+.seat ul li {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 8px;
+    padding: 0px;
+    background: #ededed;
+    border: 1px solid #563D7C;
+    overflow: hidden;
+}
+
+
+seat.style {
+    width: 30px;
+    float: right;
+}
+.seat ul {
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+.seat ul li a {
+    width: 20px;
+    height: 20px;
+    float: left;
+    width: 30px;
+    height: 24px;
+    text-indent: -99999px;
+    display: block;
+}
+
+.seat_status ul{
+    float: left
+}
+.seat_status ul li{
+    float: left;
+    margin-right: 5px;
+    margin-top: 8px;
+    padding: 0px;
+    background: #ededed;
+    border: 1px solid #563D7C;
+    overflow: hidden;
+}
